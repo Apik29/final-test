@@ -15,3 +15,10 @@ _Решение_
 3. Далее функция "NewArray" воспроизводит нам эти массивы и выводит его в resultArray.
 
 4. И последняя функция простая "PrintArray" выводит нам конечный результат.
+
+
+__Блок-схема__
+
+https://drive.google.com/file/d/1vJHJ5ekGanJBYBUuTTlvPsgvHQ3TT1T9/view?usp=sharing
+
+<image src= "\Users\User\Documents\GitHub\final-test\final-test.drawio.png">
