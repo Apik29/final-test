@@ -17,6 +17,4 @@ _Решение_
 4. И последняя функция простая "PrintArray" выводит нам конечный результат.
 
 
-__Блок-схема__
-
-https://drive.google.com/file/d/1vJHJ5ekGanJBYBUuTTlvPsgvHQ3TT1T9/view?usp=sharing
+[__Блок-схема__](https://github.com/Apik29/final-test/blob/main/Picture/final-test.drawio.png)
