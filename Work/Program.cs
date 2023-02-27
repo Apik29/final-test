@@ -10,22 +10,6 @@ string[] createArray()
     return array;
 }
 
-string PrintArray(string[] array)
-{
-    string stringArray = "";
-    for (int i = 0; i < array.Length; i++)
-    {
-        if (i == array.Length - 1)
-        {
-            stringArray += $"\"{array[i]}\"";
-            break;
-        }
-        stringArray += ($"\"{array[i]}\", ");
-    }
-    stringArray += "";
-    return stringArray;
-}
-
 int Сounting(string[] array)
 {
     int counter = 0;
@@ -54,7 +38,21 @@ string[] NewArray(string[] array)
     }
     return resultArray;
 }
-
+string PrintArray(string[] array)
+{
+    string stringArray = "";
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (i == array.Length - 1)
+        {
+            stringArray += $"\"{array[i]}\"";
+            break;
+        }
+        stringArray += ($"\"{array[i]}\", ");
+    }
+    stringArray += "";
+    return stringArray;
+}
 string[] array = createArray();
 string[] resultArray = NewArray(array);
 string finalArray = PrintArray(resultArray);
